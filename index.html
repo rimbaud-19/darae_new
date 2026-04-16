@@ -20,13 +20,13 @@
   </div>
 </div>
 
-<div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">신규 vs 재구매 비율</div>
+<div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">신규 vs 기존고객 비율</div>
 <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; font-size: 12px; color: var(--color-text-secondary);">
   <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #378ADD;"></span>신규 28%</span>
-  <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #D85A30;"></span>재구매 72%</span>
+  <span style="display: flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #D85A30;"></span>기존고객 72%</span>
 </div>
 <div style="position: relative; width: 100%; height: 200px; margin-bottom: 32px;">
-  <canvas id="ratioChart" role="img" aria-label="신규 대 재구매 비율">기본 비율</canvas>
+  <canvas id="ratioChart" role="img" aria-label="신규 대 기존고 비율">기본 비율</canvas>
 </div>
 
 <div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">고객 등급별 세부 분포</div>
@@ -36,14 +36,14 @@
 
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-bottom: 32px;">
   <div>
-    <div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">연령대별 신규/재구매 비율</div>
+    <div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">연령대별 신규/기존고객 비율</div>
     <div style="font-size: 11px; color: var(--color-text-secondary); margin-bottom: 6px;">(연령 확인 가능 108명)</div>
     <div style="position: relative; width: 100%; height: 240px;">
       <canvas id="ageChart" role="img" aria-label="연령대별 신규 재구매 비율">연령대별</canvas>
     </div>
   </div>
   <div>
-    <div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">성별 신규/재구매 비율</div>
+    <div style="font-size: 14px; font-weight: 500; margin-bottom: 8px; color: var(--color-text-primary);">성별 신규/기존고 비율</div>
     <div style="font-size: 11px; color: var(--color-text-secondary); margin-bottom: 6px;">(성별 확인 가능 107명)</div>
     <div style="position: relative; width: 100%; height: 240px;">
       <canvas id="genderChart" role="img" aria-label="성별 신규 재구매 비율">성별</canvas>
